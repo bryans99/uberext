@@ -1,6 +1,6 @@
 project_name: "uberext"
 
-application: demo-core-sdk {
+application: uberext-demo-core-sdk {
   file: dist/demo-core-sdk/bundle.js
   label: "Demo Core SDK (uberext)"
   entitlements: {
@@ -21,7 +21,7 @@ application: demo-core-sdk {
   }
 }
 
-application: demo-embeds {
+application: uberext-demo-embeds {
   file: dist/demo-embeds/bundle.js
   label: "Demo Embeds (uberext)"
   entitlements: {
@@ -42,7 +42,7 @@ application: demo-embeds {
   }
 }
 
-application: demo-extension-sdk {
+application: uberext-demo-extension-sdk {
   file: dist/demo-extension-sdk/bundle.js
   label: "Demo Extension SDK (uberext)"
   entitlements: {
@@ -63,7 +63,7 @@ application: demo-extension-sdk {
   }
 }
 
-application: filedownload {
+application: uberext-filedownload {
   file: dist/file-download/bundle.js
   label: "File download demo (uberext)"
   entitlements: {
@@ -71,7 +71,7 @@ application: filedownload {
   }
 }
 
-application: fileupload {
+application: uberext-fileupload {
   file: dist/file-upload/bundle.js
   label: "File upload demo (uberext)"
   entitlements: {
@@ -79,7 +79,7 @@ application: fileupload {
   }
 }
 
-application: helloworld-js {
+application: uberext-helloworld-js {
   file: dist/helloworld-js/bundle.js
   label: "Helloworld (JavaScript) (uberext)"
   entitlements: {
@@ -87,7 +87,7 @@ application: helloworld-js {
   }
 }
 
-application: map-iframe {
+application: uberext-map-iframe {
   file: dist/map-iframe/bundle.js
   label: "Map IFRAME demo (uberext)"
   entitlements: {
@@ -95,7 +95,7 @@ application: map-iframe {
   }
 }
 
-application: access_key_demo {
+application: uberext-access_key_demo {
   file: dist/access-key-demo/bundle.js
   label: "Extension Access Key Demo (uberext)"
   entitlements: {
@@ -105,14 +105,14 @@ application: access_key_demo {
   }
 }
 
-application: helloworld-ts {
+application: uberext-helloworld-ts {
   file: dist/helloworld-ts/bundle.js
   label: "Helloworld (TypeScript) (uberext)"
   entitlements: {
   core_api_methods: ["me"]
 }
 }
-application: kitchensink {
+application: uberext-kitchensink {
   file: dist/kitchensink/bundle.js
   label: "Kitchen sink (uberext)"
   entitlements: {
@@ -129,21 +129,21 @@ application: kitchensink {
   }
 }
 
-application: look-runner {
+application: uberext-look-runner {
   file: dist/looks-query/bundle.js
     label: "Look Runner (uberext)"
     entitlements: {
       core_api_methods: ["run_inline_query", "me", "all_looks", "run_look"]
     }
   }
-application: look-runner {
+application: uberext-look-runner {
   file: dist/looks-query-redux/bundle.js
     label: "Look Runner (uberext)"
     entitlements: {
       core_api_methods: ["run_inline_query", "me", "all_looks", "run_look"]
     }
   }
-application: extension-counter {
+application: uberext-extension-counter {
   file: dist/counter/bundle.js
   label: "Extension Counter (uberext)"
   entitlements: {
@@ -151,7 +151,7 @@ application: extension-counter {
   }
 }
 
-application: extension-counter {
+application: uberext-extension-counter {
   file: dist/counter-ts/bundle.js
   label: "Extension Counter (uberext)"
   entitlements: {
