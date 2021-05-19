@@ -136,7 +136,7 @@ application: look-runner {
       core_api_methods: ["run_inline_query", "me", "all_looks", "run_look"]
     }
   }
-application: look-runner {
+application: look-runner-redux {
   file: dist/looks-query-redux/bundle.js
     label: "Look Runner (uberext)"
     entitlements: {
