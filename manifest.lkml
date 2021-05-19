@@ -1,7 +1,7 @@
 project_name: "uberext"
 
 application: demo-core-sdk {
-  file: dist/demo-core-sdk/bundle.js
+  file: "dist/demo-core-sdk/bundle.js"
   label: "Demo Core SDK (uberext)"
   entitlements: {
     local_storage: no
@@ -22,7 +22,7 @@ application: demo-core-sdk {
 }
 
 application: demo-embeds {
-  file: dist/demo-embeds/bundle.js
+  file: "dist/demo-embeds/bundle.js"
   label: "Demo Embeds (uberext)"
   entitlements: {
     local_storage: no
@@ -43,7 +43,7 @@ application: demo-embeds {
 }
 
 application: demo-extension-sdk {
-  file: dist/demo-extension-sdk/bundle.js
+  file: "dist/demo-extension-sdk/bundle.js"
   label: "Demo Extension SDK (uberext)"
   entitlements: {
     local_storage: yes
@@ -64,7 +64,7 @@ application: demo-extension-sdk {
 }
 
 application: filedownload {
-  file: dist/file-download/bundle.js
+  file: "dist/file-download/bundle.js"
   label: "File download demo (uberext)"
   entitlements: {
     use_downloads: yes
@@ -72,7 +72,7 @@ application: filedownload {
 }
 
 application: fileupload {
-  file: dist/file-upload/bundle.js
+  file: "dist/file-upload/bundle.js"
   label: "File upload demo (uberext)"
   entitlements: {
     external_api_urls: ["http://localhost:3000"]
@@ -80,7 +80,7 @@ application: fileupload {
 }
 
 application: helloworld-js {
-  file: dist/helloworld-js/bundle.js
+  file: "dist/helloworld-js/bundle.js"
   label: "Helloworld (JavaScript) (uberext)"
   entitlements: {
     core_api_methods: ["me"]
@@ -88,7 +88,7 @@ application: helloworld-js {
 }
 
 application: map-iframe {
-  file: dist/map-iframe/bundle.js
+  file: "dist/map-iframe/bundle.js"
   label: "Map IFRAME demo (uberext)"
   entitlements: {
       use_iframes: yes
@@ -96,7 +96,7 @@ application: map-iframe {
 }
 
 application: access_key_demo {
-  file: dist/access-key-demo/bundle.js
+  file: "dist/access-key-demo/bundle.js"
   label: "Extension Access Key Demo (uberext)"
   entitlements: {
     use_form_submit: yes
@@ -106,14 +106,14 @@ application: access_key_demo {
 }
 
 application: helloworld-ts {
-  file: dist/helloworld-ts/bundle.js
+  file: "dist/helloworld-ts/bundle.js"
   label: "Helloworld (TypeScript) (uberext)"
   entitlements: {
   core_api_methods: ["me"]
 }
 }
 application: kitchensink {
-  file: dist/kitchensink/bundle.js
+  file: "dist/kitchensink/bundle.js"
   label: "Kitchen sink (uberext)"
   entitlements: {
     local_storage: yes
@@ -130,21 +130,21 @@ application: kitchensink {
 }
 
 application: look-runner {
-  file: dist/looks-query/bundle.js
+  file: "dist/looks-query/bundle.js"
     label: "Look Runner (uberext)"
     entitlements: {
       core_api_methods: ["run_inline_query", "me", "all_looks", "run_look"]
     }
   }
 application: look-runner-redux {
-  file: dist/looks-query-redux/bundle.js
+  file: "dist/looks-query-redux/bundle.js"
     label: "Look Runner (uberext)"
     entitlements: {
       core_api_methods: ["run_inline_query", "me", "all_looks", "run_look"]
     }
   }
 application: extension-counter {
-  file: dist/counter/bundle.js
+  file: "dist/counter/bundle.js"
   label: "Extension Counter (uberext)"
   entitlements: {
     core_api_methods: ["me"]
@@ -152,7 +152,7 @@ application: extension-counter {
 }
 
 application: extension-counter-ts {
-  file: dist/counter-ts/bundle.js
+  file: "dist/counter-ts/bundle.js"
   label: "Extension Counter (uberext)"
   entitlements: {
     core_api_methods: ["me"]
