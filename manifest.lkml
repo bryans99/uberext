@@ -63,6 +63,27 @@ application: demo-extension-sdk {
   }
 }
 
+application: demo-external-api {
+  file: "dist/demo-external-api/bundle.js"
+  label: "demo-external-api (uberext)"
+  entitlements: {
+    local_storage: no
+    navigation: no
+    new_window: no
+    new_window_external_urls: []
+    use_form_submit: yes
+    use_embeds: no
+    use_downloads: no
+    use_iframes: no
+    use_clipboard: no
+    core_api_methods: []
+    external_api_urls: ["https://*.googleapis.com"]
+    oauth2_urls: ["https://accounts.google.com/o/oauth2/v2/auth"]
+    scoped_user_attributes: []
+    global_user_attributes: []
+  }
+}
+
 application: filedownload {
   file: "dist/file-download/bundle.js"
   label: "File download demo (uberext)"
@@ -76,6 +97,14 @@ application: fileupload {
   label: "File upload demo (uberext)"
   entitlements: {
     external_api_urls: ["http://localhost:3000"]
+  }
+}
+
+application: geppetto {
+  file: "dist/geppetto/bundle.js"
+  label: "Geppetto (the Extension) (uberext)"
+  entitlements: {
+    use_embeds: yes
   }
 }
 
